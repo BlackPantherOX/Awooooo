@@ -10,12 +10,12 @@ import {
 const Gallery = () => {
   return (
     <div className="w-full mt-24 px-2 lg:px-0">
-      <h2 className="text-5xl font-normal text-center text-blue-900 mb-5 pb-4 border-b border-dotted">
+      <h2 className="text-5xl font-normal text-center text-blue-900 mb-4 lg:mb-5 pb-4 border-b border-dotted">
         Offers &amp; Services
       </h2>
-      <div className="max-w-5xl mx-auto grid grid-cols-2 gap-5">
+      <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-5">
         {/* ... */}
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 gap-3 text-2xl">
           <Link href="">
             <a className="col-span-1 relative group">
               <Image
@@ -35,7 +35,7 @@ const Gallery = () => {
           <Link href="">
             <a className="relative group">
               <Image
-                src="/images/offers/pilawo.jpg"
+                src="/images/offers/buffet.jpg"
                 width={500}
                 height={500}
                 alt="Awooooo Image"
@@ -43,7 +43,7 @@ const Gallery = () => {
                 className="h-auto col-span-2"
               />
               <div className="absolute inset-0 text-white flex group-hover:hidden items-center justify-center p-2 bg-blue-900 bg-opacity-60">
-                Free Food
+                Buffet
               </div>
             </a>
           </Link>
@@ -59,7 +59,7 @@ const Gallery = () => {
                 className="h-auto col-span-2"
               />
               <div className="absolute inset-0 text-white flex items-center justify-center p-2 bg-blue-900 bg-opacity-60">
-                This is a sample text
+                Free Snacks
               </div>
             </a>
           </Link>
@@ -75,7 +75,7 @@ const Gallery = () => {
                 className="h-auto col-span-2"
               />
               <div className="absolute inset-0 text-white flex items-center justify-center p-2 bg-blue-900 bg-opacity-60">
-                This is a sample text
+                Free Drinks
               </div>
             </a>
           </Link>
@@ -83,11 +83,11 @@ const Gallery = () => {
 
         {/* ... */}
 
-        <div className="font-light text-xl">
+        <div className="font-light text-xl order-start lg:order-normal">
           <h2 className="font-bold text-5xl">We have everything you need</h2>
-          <p className="my-3">
-            Posuere morbi leo urna molestie at elementum eu facilisis sed. Diam
-            phasellus vestibulum lorem sed risus ultricies tristique
+          <p className="my-4">
+            Our hotels are built to hive you the atmost comfort regardless of
+            how long you spend here.
           </p>
           <div className="grid grid-cols-2 gap-5 font-normal">
             <div className="flex items-center">
