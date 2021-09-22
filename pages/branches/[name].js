@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
 import Text from "../../components/blocks/text";
 import HotelImages from "../../components/blocks/hotelimages";
+import * as constants from "../../constants";
+import Head from "next/head";
 
 const BranchName = () => {
   const router = useRouter();
@@ -8,6 +10,11 @@ const BranchName = () => {
 
   return (
     <div className="pt-56 bg-light pb-10">
+      <Head>
+        <title>
+          {name} branch - {constants.SITE_NAME} Accommodation
+        </title>
+      </Head>
       <h1 className="font-bold text-5xl pb-3 mb-3 text-blue-900 border-b border-dotted max-w-4xl mx-auto">
         <span className="capitalize">{name}</span> Branch
       </h1>
