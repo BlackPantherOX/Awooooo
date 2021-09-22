@@ -5,7 +5,7 @@ const HotelImages = ({ branch }) => {
   // ...
 
   return (
-    <div className="max-w-4xl mx-auto grid grid-cols-4 gap-3 mt-5">
+    <div className="max-w-4xl mx-auto grid grid-cols-4 gap-3 mt-2">
       {arr.map((num) => (
         <Image
           src={`/images/${branch}/${num}.jpeg`}

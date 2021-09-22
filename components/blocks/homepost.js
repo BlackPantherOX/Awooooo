@@ -40,7 +40,7 @@ const HomePost = () => {
         </div>
 
         <div className="flex items-end w-full ">
-          <Link href="/">
+          <Link href="/about">
             <a className="border-white uppercase text-sm bg-blue-900 h-10 pl-8 text-white flex items-center">
               <span className="flex items-center h-full overflow-hidden">
                 Read More{" "}

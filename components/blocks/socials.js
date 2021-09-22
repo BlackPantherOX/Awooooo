@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const Socials = () => {
   return (
-    <div className="w-full bg-light mt-5 py-5">
+    <div className="w-full mt-5 py-5">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-5xl font-normal text-center text-blue-900 mb-4 pb-4 border-b border-dotted">
+        <h2 className="text-3xl font-semibold text-center text-blue-900 mb-4 pb-4 border-b border-gray-200 border-dashed">
           Find us on Social Media
         </h2>
         {/* ... */}

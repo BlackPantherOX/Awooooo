@@ -56,32 +56,32 @@ const Navbar = () => {
       </div>
 
       {/* navigation */}
-      <div className="max-w-3xl mx-auto bg-blue-900 flex font-normal text-white h-14 -mb-6 mt-2 sm:rounded-full border-b-2 lg:border-2 border-gray-100">
+      <div className="max-w-4xl mx-auto bg-blue-900 flex font-normal text-white h-14 -mb-6 mt-2 sm:rounded-full border-b-2 lg:border-2 border-gray-100">
         <Link href="/">
           <a className="flex-auto flex items-center justify-center hover:text-yellow-300">
             <HiHome className="text-2xl mr-2 sm:mr-4" />
             Home
           </a>
         </Link>
-        <Link href="#about">
+        <Link href="/about">
           <a className="flex-auto hidden sm:flex items-center justify-center hover:text-yellow-300">
             <AiOutlineTeam className="text-2xl mr-2 sm:mr-4" />
             About Us
           </a>
         </Link>
-        <Link href="#services">
+        <Link href="/services">
           <a className="flex-auto flex items-center justify-center hover:text-yellow-300">
             <MdRoomService className="text-2xl mr-2 sm:mr-4" />
             Services
           </a>
         </Link>
-        <Link href="#rooms">
+        <Link href="/rooms">
           <a className="flex-auto flex items-center justify-center hover:text-yellow-300">
             <FaBed className="text-2xl mr-2 sm:mr-4" />
             Rooms
           </a>
         </Link>
-        <Link href="#news">
+        <Link href="/tours">
           <a className="flex-auto flex items-center justify-center hover:text-yellow-300">
             <FaShuttleVan className="text-2xl mr-2 sm:mr-4" />
             Tours
