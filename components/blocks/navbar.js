@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaMapMarkerAlt, FaBed } from "react-icons/fa";
+import { FaMapMarkerAlt, FaBed, FaShuttleVan } from "react-icons/fa";
 import { RiStarSFill } from "react-icons/ri";
 import { HiHome } from "react-icons/hi";
 import { BiNews } from "react-icons/bi";
@@ -22,15 +22,18 @@ const Navbar = () => {
         </div>
 
         {/* Logo */}
-        <Link href="/" className="flex-auto">
-          <a className="max-w-[400px]">
+        <Link href="/">
+          <a className="max-w-[400px] flex-auto mt-2">
             <div className="flex justify-center text-4xl">
               <FaBed />
             </div>
             <h1 className="text-5xl font-normal text-center text-blue-900 leading-5">
-              awooooo
+              awooooo{" "}
+              <span className="block font-light text-xl mt-2 opacity-80">
+                Accomodation
+              </span>
             </h1>
-            <div className="text-[10px] flex justify-center mt-3 lg:mt-5">
+            <div className="text-[10px] flex justify-center">
               <RiStarSFill />
               <RiStarSFill />
               <RiStarSFill />
@@ -80,8 +83,8 @@ const Navbar = () => {
         </Link>
         <Link href="#news">
           <a className="flex-auto flex items-center justify-center hover:text-yellow-300">
-            <BiNews className="text-2xl mr-2 sm:mr-4" />
-            News
+            <FaShuttleVan className="text-2xl mr-2 sm:mr-4" />
+            Tours
           </a>
         </Link>
       </div>
