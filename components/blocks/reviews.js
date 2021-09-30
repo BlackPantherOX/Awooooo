@@ -82,8 +82,8 @@ const Reviews = () => {
               <p className="font-light leading-8 tracking-wide">
                 We booked to stay in Busabala, but because we had missed our
                 flight at Heathrow Airport, the team at Awooooo thought we
-                weren't gonna make it. They rufunded our money, but said no
-                since it wasn't their fault. We requested to be booked at
+                weren&apos;t gonna make it. They rufunded our money, but said no
+                since it wasn&apos;t their fault. We requested to be booked at
                 Busega, and yes, we liked the place. Imelda, London UK
               </p>
             </Carousel.Caption>
