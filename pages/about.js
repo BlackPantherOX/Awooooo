@@ -1,5 +1,6 @@
 import * as constants from "../constants";
 import Head from "next/head";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -23,9 +24,36 @@ const About = () => {
             experience without having to travel off the beaten path.
           </p>
           <p>
-            Busabala Branch, located on the South Carolina coast just off of
-            Hilton Head Island, offers an easy way to have an off-grid vacation
-            experience without having to travel off the beaten path.
+            <h3 className="font-semibold text-lg">Busabala Branch</h3>
+            Situated in central Uganda, Busabala is a serene site located in
+            Wakiso District, Makindye Ssabagabo Municipality.
+            <Link href="">
+              <a className="text-blue-800 block font-normal text-md">
+                Read More ...
+              </a>
+            </Link>
+          </p>
+          <p>
+            <h3 className="font-semibold text-lg">Buyala Branch</h3>
+            Located 17 Kilometres along Mityana road, just after Buloba town,
+            Awooooo Accommodation in Buyala is a 16 minutes’ drive from Kampala
+            city.
+            <Link href="">
+              <a className="text-blue-800 block font-normal text-md">
+                Read More ...
+              </a>
+            </Link>
+          </p>
+          <p>
+            <h3 className="font-semibold text-lg">Buyala Branch</h3>
+            Located 17 Kilometres along Mityana road, just after Buloba town,
+            Awooooo Accommodation in Buyala is a 16 minutes’ drive from Kampala
+            city.
+            <Link href="">
+              <a className="text-blue-800 block font-normal text-md">
+                Read More ...
+              </a>
+            </Link>
           </p>
           <p>
             Bulaya Branch, located on the South Carolina coast just off of

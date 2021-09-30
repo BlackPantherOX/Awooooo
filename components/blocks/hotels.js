@@ -14,7 +14,7 @@ const Hotels = () => {
             <div className="relative w-full h-full">
               <div className="hidden group-hover:block group-focus:block absolute inset-0 bg-blue-900 bg-opacity-30 z-10"></div>
               <Image
-                src="/images/p.jpeg"
+                src="/images/busabala.jpg"
                 layout="responsive"
                 height="100"
                 width="100"
@@ -24,7 +24,7 @@ const Hotels = () => {
             </div>
             <div className="relative w-full h-full flex flex-col items-center justify-center px-3">
               <h4 className="font-semibold text-xl lg:text-2xl mb-2 lg:mb-4">
-                Buyala Branch
+                Busabala Branch
               </h4>
               <p className="sm:text-sm lg:text-md text-center mb-4">
                 Enjoy a refreshing time at the beach
@@ -33,7 +33,7 @@ const Hotels = () => {
               <h6 className="grid grid-cols-2 gap-2 lg:gap-5">
                 <div className="font-bold text-sm lg:text-xl text-yellow-700">
                   <span className="text-xs block text-right">UGX</span>{" "}
-                  <span className="block text-right">290K /=</span>
+                  <span className="block text-right">62K /=</span>
                 </div>
                 <div className="text-sm font-semibold text-gray-600">
                   <span className="block whitespace-nowrap overflow-hidden">
@@ -54,7 +54,7 @@ const Hotels = () => {
             <div className="relative w-full h-full order-end sm:order-start">
               <div className="hidden group-hover:block group-focus:block absolute inset-0 bg-blue-900 bg-opacity-30 z-10"></div>
               <Image
-                src="/images/268901544.jpeg"
+                src="/images/busega.jpg"
                 layout="responsive"
                 height="100"
                 width="100"
@@ -64,7 +64,7 @@ const Hotels = () => {
             </div>
             <div className="relative w-full h-full flex flex-col items-center justify-center px-3">
               <h4 className="font-semibold text-xl lg:text-2xl mb-2 lg:mb-4">
-                Nateete Branch
+                Busega Branch
               </h4>
               <p className="sm:text-sm lg:text-md text-center mb-4">
                 Enjoy a refreshing time at the beach
@@ -73,7 +73,7 @@ const Hotels = () => {
               <h6 className="grid grid-cols-2 gap-2 lg:gap-5">
                 <div className="font-bold text-sm lg:text-xl text-yellow-700">
                   <span className="text-xs block text-right">UGX</span>{" "}
-                  <span className="block text-right">300K /=</span>
+                  <span className="block text-right">42K /=</span>
                 </div>
                 <div className="text-sm font-semibold text-gray-600">
                   <span className="block whitespace-nowrap overflow-hidden">
@@ -93,7 +93,7 @@ const Hotels = () => {
           <a className="grid grid-cols-2 group">
             <div className="relative w-full h-full flex flex-col items-center justify-center px-3">
               <h4 className="font-semibold text-xl lg:text-2xl mb-2 lg:mb-4">
-                Busabala Branch
+                Buyala Branch
               </h4>
               <p className="sm:text-sm lg:text-md text-center mb-4">
                 Enjoy a refreshing time at the beach
@@ -102,7 +102,7 @@ const Hotels = () => {
               <h6 className="grid grid-cols-2 gap-2 lg:gap-5">
                 <div className="font-bold text-sm lg:text-xl text-yellow-700">
                   <span className="text-xs block text-right">UGX</span>{" "}
-                  <span className="block text-right">300K /=</span>
+                  <span className="block text-right">142K /=</span>
                 </div>
                 <div className="text-sm font-semibold text-gray-600">
                   <span className="block whitespace-nowrap overflow-hidden">
@@ -118,7 +118,7 @@ const Hotels = () => {
             <div className="relative w-full h-full order-start sm:order-end">
               <div className="hidden group-hover:block group-focus:block absolute inset-0 bg-blue-900 bg-opacity-30 z-10"></div>
               <Image
-                src="/images/268901544.jpeg"
+                src="/images/buyala.jpg"
                 layout="responsive"
                 height="100"
                 width="100"
@@ -134,16 +134,16 @@ const Hotels = () => {
           <a className="grid grid-cols-2 group">
             <div className="relative w-full h-full flex flex-col items-center justify-center px-3">
               <h4 className="font-semibold text-xl lg:text-2xl mb-2 lg:mb-4">
-                Nateete Branch
+                Mityana Branch
               </h4>
               <p className="sm:text-sm lg:text-md text-center mb-4">
-                Enjoy a refreshing time at the beach
+                Enjoy a refreshing time at our vilas
               </p>
 
               <h6 className="grid grid-cols-2 gap-2 lg:gap-5">
                 <div className="font-bold text-sm lg:text-xl text-yellow-700">
                   <span className="text-xs block text-right">UGX</span>{" "}
-                  <span className="block text-right">300K /=</span>
+                  <span className="block text-right">92K /=</span>
                 </div>
                 <div className="text-sm font-semibold text-gray-600">
                   <span className="block whitespace-nowrap overflow-hidden">
@@ -159,7 +159,7 @@ const Hotels = () => {
             <div className="relative w-full h-full">
               <div className="hidden group-hover:block group-focus:block absolute inset-0 bg-blue-900 bg-opacity-30 z-10"></div>
               <Image
-                src="/images/268901544.jpeg"
+                src="/images/mityana.jpg"
                 layout="responsive"
                 height="100"
                 width="100"

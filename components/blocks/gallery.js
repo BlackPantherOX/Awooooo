@@ -91,20 +91,20 @@ const Gallery = () => {
           </p>
           <div className="grid grid-cols-2 gap-5 font-normal">
             <div className="flex items-center">
-              <FaWifi className="text-6xl mr-5" /> Free available high speed
-              WiFi
+              <FaWifi className="text-6xl mr-5 text-blue-700" /> Free available
+              high speed WiFi
             </div>
             <div className="flex items-center">
-              <FaMapMarkerAlt className="text-6xl mr-5" /> Сonvenient location
-              in the center
+              <FaMapMarkerAlt className="text-6xl mr-5 text-yellow-500" />{" "}
+              Сonvenient location in the center
             </div>
             <div className="flex items-center">
-              <FaLuggageCart className="text-6xl mr-5" /> Free storage of
-              luggage of any size
+              <FaLuggageCart className="text-6xl mr-5 text-gray-600" /> Free
+              storage of luggage of any size
             </div>
             <div className="flex items-center">
-              <FaCarAlt className="text-6xl mr-5" /> Free parking space
-              allocated to you
+              <FaCarAlt className="text-6xl mr-5 text-green-700" /> Free parking
+              space allocated to you
             </div>
           </div>
         </div>
